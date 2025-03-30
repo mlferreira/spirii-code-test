@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "ES2022"
+    ],
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "target": "ES2022",
+    "typeRoots": [
+      "./node_modules/@types",
+      "types"
+    ],
+    "types": ["node"]
+  },
+  "typeAcquisition": {
+    "enable": true
+  },
+  "exclude": [
+    "build",
+    "coverage",
+    "docs",
+    "dump",
+    "node_modules"
+  ]
+}
